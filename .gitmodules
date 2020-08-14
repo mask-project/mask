@@ -1,0 +1,14 @@
+[submodule "external/unbound"]
+	path = external/unbound
+	url = https://github.com/mask-project/unbound
+	branch = mask
+[submodule "external/miniupnp"]
+	path = external/miniupnp
+	url = https://github.com/mask-project/miniupnp
+	branch = mask
+[submodule "external/rapidjson"]
+	path = external/rapidjson
+	url = https://github.com/Tencent/rapidjson
+[submodule "external/randomx"]
+	path = external/randomx
+	url = https://github.com/tevador/RandomX
