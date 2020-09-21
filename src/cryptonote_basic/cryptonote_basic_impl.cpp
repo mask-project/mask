@@ -92,11 +92,13 @@ namespace cryptonote {
     {
       esf = EMISSION_SPEED_FACTOR_PER_MINUTE_ZAP;
     }
-    else if (blockchain_height >= 6000)
+
+    if (blockchain_height >= 6000)
     {
       esf = EMISSION_SPEED_FACTOR_PER_MINUTE_FLASH;
     }
-    else if (blockchain_height >= 9000)
+
+    if (blockchain_height >= 9000)
     {
       esf = EMISSION_SPEED_FACTOR_PER_MINUTE_ICE;
     }
